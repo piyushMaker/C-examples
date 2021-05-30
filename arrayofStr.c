@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-void multiptr(int *arg)
+void multiptr(char *arg[])
 {
-        printf("%c\n",arg[2][0]);
+        printf("%s\n",arg[0]);
+    
 }
  char str1[] = "Piyush";
  char str2[] = "Shourya";

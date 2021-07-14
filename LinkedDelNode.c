@@ -1,4 +1,4 @@
-ool deleteNode( node* Head, int val)
+bool deleteNode( node* Head, int val)
  {  // delete note that matches val
    
      node* temp;
